@@ -4,7 +4,8 @@ var express= require('express');
 var app=express();
 //3.define function when somone access our site
 app.get('/',function(req,res){
-    res.send('hello bhanu this is my first website');
+    //res.send('hello bhanu this is my first website');
+    res.sendFile(__dirname+'/frontend/html/index.html')
 })
 //4.run application on port
 var port=process.env.PORT ||3000;
