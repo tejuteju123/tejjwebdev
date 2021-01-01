@@ -1,0 +1,12 @@
+.blueButton{
+    background-color: red;
+    font-size: 12px;
+    color: white;
+    border: 100px solid yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.RedButton{
+    background-color:blue;
+    font-size: 12px;
+    color:white;
+}
