@@ -1,3 +1,6 @@
+body{
+    margin-left: 10px;
+}
 .blueButton{
     background-color: red;
     font-size: 12px;
@@ -17,4 +20,23 @@
 }
 .tej-green{
     color: yellowgreen;
+}
+ 
+table,td,th{
+    border: 2px solid brown;
+}
+th{
+    text-align: center;
+}
+img {
+    width: 15px;
+    height: 15px;
+}
+iframe{
+    width:  800px;
+    height: 800px;
+}
+.pdisplay{
+    background-color: crimson;
+    color: darkolivegreen;
 }

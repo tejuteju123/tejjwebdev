@@ -17,6 +17,10 @@ app.get('/resume.html',function(req,res){
     //res.send('hello bhanu this is my first website');
     res.sendFile(__dirname+'/frontend/html/resume.html')
 })
+app.get('/clock.html',function(req,res){
+    //res.send('hello bhanu this is my first website');
+    res.sendFile(__dirname+'/frontend/html/clock.html')
+})
 //4.run application on port
 var port=process.env.PORT ||3000;
 //once site is up function() will be called automatically
